@@ -16,11 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from blog.views import *
+from blog.views import sda
+
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", index),
-    path("test/", test_fun),
-    path("categ/", categ)
+    path('sda/', sda)
+
 ]
