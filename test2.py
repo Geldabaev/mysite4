@@ -1,11 +1,11 @@
-print()
-"""
-pip install pillow
-python manage.py makemigrations blog
-python manage.py migrate blog
+x = 1
+x = str(x)
+print(type(x))
+a = '1'
+x2 = int(a)
+print(type(x2))
 
-admin.py:
-    from .models import MyPublish
-    
-    admin.site.register(MyPublish)
-"""
+print(1 + 1)
+print("a" + "b")
+print(8 * 2)
+print("a" * 10)
