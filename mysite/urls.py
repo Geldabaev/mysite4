@@ -21,6 +21,4 @@ from blog.views import sda
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('sda/', sda)
-
 ]
