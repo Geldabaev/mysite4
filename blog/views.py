@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponseNotFound, HttpResponse
 
 def index(request):
-    return render(request, "blog/robot.html")
+    return render(request, "blog/index.html")
 
 
 def test(request):
